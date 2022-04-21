@@ -1,0 +1,190 @@
+.about-us-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.aboutUs {
+  border: 5px solid rgb(248, 101, 2);
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'sansita swashed', Verdana;
+  text-shadow: 1px 1px 6px black;
+  font-size: 3.5rem;
+  width: 350px;
+    margin-top: 15px;
+  background-color: rgb(248, 153, 28);
+  padding-bottom: 8px;
+  display: block; 
+}
+
+.postsAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* margin: 20px; */
+}
+
+.aboutImg {
+  height: 50%;
+  width: 50%;
+  /* animation: rotation 6s 1 linear; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.postAbout2 {
+  display: block;
+  background-color: rgb(248, 241, 228);
+  height: auto;
+  width: 300px;
+  margin: 30px 100px;
+  border-radius: 20px;
+  border: 3px solid rgb(248, 153, 28);
+  padding-top: 10px;
+}
+.postInfoAbout {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.postTitleAbout {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 65px;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.postSubAbout {
+  font-size: 16px;
+  padding: 10px;
+}
+.mission{
+    border:5px solid #ffd400;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 16px
+}
+.buttflr{
+    height: 200px;
+    width:200px;
+}
+
+/* butterfly Code */
+@keyframes flap {
+    0% {
+        transform: rotateY(45deg);
+    }
+    100% {
+        transform: rotateY(-80deg);
+    }
+}
+body {
+    perspective: 1500px;
+    transform-origin: center center;
+}
+.container {
+    position: absolute;
+    right: 300px;
+    transform-style: preserve-3d;
+    transform: rotateX(70deg);
+}
+.hover-container {
+    transform-style: preserve-3d;
+}
+.wing {
+    position: absolute;
+
+    transform-style: preserve-3d;
+    animation: flap 0.3s linear infinite alternate;
+    width: 100px;
+    height: 100px;
+    /*background-color: rgba(252, 227, 100, 0.69);*/
+    background: radial-gradient(ellipse at center, rgba(252,227,100,0.9) 65%,rgba(255,0,0,0.9) 100%);
+    border-bottom: 3px solid red;
+}
+.wing:after {
+    content: ' ';
+    position: absolute;
+    width: 74px;
+    height: 88px;
+    top: -76px;
+    left: 25px;
+    /*background-color: rgba(252, 227, 100, 0.69);*/
+    background: radial-gradient(ellipse at center, rgba(228, 203, 125, 0.9) 24%,rgba(248, 237, 110, 0.9) 27%,rgba(252,227,100,0.9) 64%,rgba(255, 0, 0, 0.9) 100%);
+    border-radius: 50% 114%;
+}
+.left {
+    transform-origin: right center;
+    border-radius: 177% 50%;
+}
+.right {
+    transform-origin: left center;
+    border-radius: 50% 177%;
+    left: 110px;
+    animation-direction: alternate-reverse;
+}
+
+.left:after {
+    left: 25px;
+    border-radius: 50% 114%;
+}
+
+.right:after {
+    left: 0;
+    border-radius: 114% 50%;
+}
+
+.body {
+    width: 10px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #333;
+    position: absolute;
+    left: 100px;
+    top: -30px;
+}
+
+.head {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    left: 95px;
+    top: 32px;
+}
+.head:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    background-color: #333;
+    transform: rotateX(34deg) rotateZ(20deg) translateY(20px);
+    top: -7px;
+}
+.head:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    background-color: #333;
+    transform: rotateX(34deg) rotateZ(-20deg) translateY(20px);
+    top: -7px;
+    left: 15px;
+}
+
+@media only screen and (max-width:550px){
+    .aboutUs{
+        font-size: 2.5rem;
+        width:200px;
+    }
+}
+

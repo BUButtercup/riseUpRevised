@@ -1,0 +1,46 @@
+.horoscope-box {
+  margin-top: 10rem;
+  background: linear-gradient(#8e6ebb, #9198e5);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap:10px;
+  background-image: url(../../assets/images/general/universe.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.sign {
+  color: rgb(255, 252, 252);
+  padding: 10px;
+  font-size: 36px;
+  cursor: pointer;
+  border: 3px opacity 10 rgb(255, 252, 252);
+  background: linear-gradient(
+      217deg,
+      rgba(174, 0, 255, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 0, 0, 0.8), rgba(229, 233, 229, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  border-radius: 20px;
+  width: 50%;
+  margin: 5% 23%;
+ 
+}
+
+.horoTitle {
+  text-align: center;
+  color: whitesmoke;
+  font-family: sansita swashed;
+  text-shadow: 1px 1px 6px black;
+}
+
+@media (max-width:414px) {
+  .sign {
+    font-size: 8px;
+  }
+}
+

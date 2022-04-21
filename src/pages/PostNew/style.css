@@ -1,0 +1,40 @@
+.write{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: rgb(233, 196, 126);
+}
+
+.write h1 {
+    font-family: 'Sansita Swashed', Verdana;
+    font-size: 3.5rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.write p {
+    margin-top: 10px;
+    width: 70vw;
+    line-height: 2rem;;
+    color: slategray;
+    font-family: Verdana;
+    font-size: 1.5rem;
+}
+
+.post-topic {
+    text-decoration:underline;
+}
+
+.writeSubmit {
+    background-color: #ff7700 ;
+    border-radius: 90px; 
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    margin: 0 20px 20px;
+ }
+ 

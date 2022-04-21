@@ -1,0 +1,35 @@
+.write{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(233, 196, 126);
+    margin-top: 10rem;
+}
+
+.write h1 {
+    font-family: 'Sansita Swashed', Verdana;
+    font-size: 3.5rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px gray;
+
+}
+
+.write h2 {
+    margin-top: 10px;
+    width: 70vw;
+    color: slategray;
+    font-family: Verdana;
+
+    /* margin-bottom:30px; */
+    /* font-size: 1.5rem; */
+}
+
+
+.write p {
+    margin-top: 10px;
+    width: 70vw;
+    color: slategray;
+    font-family: Verdana;
+    font-size: 1.5rem;
+}

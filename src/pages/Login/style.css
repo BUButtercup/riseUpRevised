@@ -1,0 +1,113 @@
+.mainLogin, .mainSign {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 5rem 0;
+  background-color: rgb(235, 211, 167);
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.sub-main-login, .sub-main-sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width:300px;
+  box-shadow: 11px 12px 13px 12px rgb(46, 45, 45);
+  padding: 1rem;
+  border-radius: 30px;
+  background-color: rgb(240, 238, 195);
+  border: 5px solid rgb(248, 101, 2);
+}
+
+.loginTitle, .signTitle {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Sansita Swashed";
+  text-shadow: 1px 1px 6px black;
+  font-size: 3.5rem;
+}
+
+.subform-box{
+  display: flex;
+  /* align-items: center; */
+}
+
+.signup-subform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.right-box {
+  border-left: 2px dotted gray;
+}
+
+.signup-subform h2{
+  font-family:'Arima Madurai', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.signup-subform label, .sub-main-login label {
+  align-self: flex-start;
+  margin-left:3rem;
+}
+
+.inputLogin, .inputSign {
+  width: 70%;
+  height: 3rem;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px 0px #888;
+  border: none;
+  background-color: whitesmoke;
+}
+
+.input-field {
+  text-align: center;
+  font-size: 20px;
+  margin: 1rem 0;
+}
+
+.btnLogSign {
+  width: 150px;
+  height: 50px;
+  margin:1.5rem;
+  border-radius: 20px;
+  background-color: #ffe100;
+  font-size: 1.5rem;
+  border: 3px solid rgb(248, 101, 2);
+  cursor: pointer;
+}
+
+a, .checkboxLinks  {
+  text-decoration: none;
+  color: rgb(82, 82, 233);
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.ts-label {
+  display: flex;
+  align-items: center; 
+  font-size: 0.75rem;
+}
+
+#switch-label {
+  margin:0;
+}
+
+/* 
+.form-alert-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-alert {
+  font-size: 0.8rem;
+  color: red;
+  font-weight: bold;
+} */
