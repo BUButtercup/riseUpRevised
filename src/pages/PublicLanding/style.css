@@ -1,0 +1,140 @@
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .flowerImg {
+    height:100px;
+    width: 100px;
+    margin: 2rem;
+    animation: rotation 6s 1 linear;
+  }
+
+.quote-btn {
+    /* border: 1px solid black; */
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/images/general/stylized_sunrise.png);
+    background-position: center;
+    background-size:cover;
+    height:70px;
+    width:140px;
+    /* margin: 0px 0; */
+}
+
+.quote-btn:hover {
+    cursor: pointer;
+    /* box-shadow: 0 0 5px 5px rgb(248, 153, 28); */
+}
+
+.quote-btn:hover p{
+    cursor: pointer;
+    background-color:rgb(248, 153, 28);
+}
+
+.quote-btn p {
+    font-family: 'Sansita Swashed'
+}
+
+.forum-pic { 
+    width: 300px;
+    height:150px;
+    background-image: url(../../assets/images/readme/forum-topic-page.png);
+    background-size:150%;
+    background-position:top;
+    background-repeat: no-repeat;
+    border:3px solid rgb(240, 238, 195);;
+}
+
+.checklist-pic {
+    width: 300px;
+    height:150px;
+    background-image: url(../../assets/images/readme/user-homepage.png);
+    background-size:190%;
+    background-position:100% 25%;
+    background-repeat: no-repeat;
+    border:3px solid rgb(240, 238, 195);
+}
+
+.crisis-pic {
+    width: 300px;
+    height:150px;
+    background-image: url(../../assets/images/readme/crisis-links.png);
+    background-size:100%;
+    background-position:25%;
+    background-repeat: no-repeat;
+    border:3px solid rgb(240, 238, 195);;
+}
+
+.horoscope-btn {
+    /* background: linear-gradient( */
+        /* 217deg, */
+        /* rgba(174, 0, 255, 0.8),
+        rgba(255, 0, 0, 0)
+      ); */
+      /* linear-gradient(127deg, rgba(0, 0, 0, 0.8), rgba(229, 233, 229, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%); */
+    font-family: 'Sansita Swashed', Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+}
+
+  .PHpost-cursor:hover{
+      /* cursor: pointer; */
+      box-shadow: 0 0 5px 5px #ffe100;
+      
+  }
+
+  .PHpost-cursor {
+      width: 350px;
+      height: 250px;
+      margin: 30px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px;
+      border: 3px solid rgb(248, 101, 2);
+      background-color: rgb(235, 211, 167);
+  }
+
+  
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PHtitle-box {
+    height: auto;
+    background-color: rgb(240, 168, 36);
+    position:relative;
+    top: -30px;
+  }
+  
+  .PHpostTitle {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px;
+    font-family: 'Sansita Swashed', Verdana;
+    background-color: rgb(255, 230, 0);
+  }
+  
+  .PHpostSub {
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-weight: bold;
+  }
+
+  #crisis-box {
+      cursor: pointer;
+  }

@@ -1,0 +1,64 @@
+.FT-big-box {
+  display: flex; 
+  flex-direction: column;
+  /* min-height: 100vh; */
+  margin-top: 10rem;
+  
+}
+
+.FT-title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FT-title-box h1 {
+  font-family: 'Sansita Swashed', Verdana;
+  font-size: 3.5rem;
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px black;
+  text-align:center;
+}
+
+.FT-title-box p {
+  margin: 10px;
+  margin-top: 10px;
+  width: 70vw;
+  line-height: 2rem;;
+  color: slategray;
+  font-family: Verdana;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.FT-post-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.nothing-to-show {
+  margin: 20px;
+  padding: 10px;
+  font-family: Verdana;
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: rgb(240, 168, 36) ;
+  border: 3px solid #ff7700;
+}
+
+/* .FT-btn {
+  background-color: #ff7700 ;
+  border-radius: 90px; 
+  margin: 10px 10px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+} */
+
+.TF {
+  width: 175px;
+}

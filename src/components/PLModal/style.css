@@ -1,0 +1,16 @@
+.plmodal-title { 
+    background-color: rgb(240, 168, 36);
+    font-family: "Sansita Swashed", Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;  
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.plmodal-text {
+    text-align: center;
+    background-color: rgb(240, 238, 195);
+    border: 5px double gray;
+    font-size: 2rem;
+    font-style: italic;
+}
