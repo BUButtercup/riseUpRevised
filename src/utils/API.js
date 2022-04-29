@@ -1,5 +1,5 @@
 // const BASEURL = "http://localhost:3005"
-const BASEURL="https://riseup-back.herokuapp.com/"
+const BASEURL="https://riseup-back.herokuapp.com"
 
 const API = {
   getTokenData: (token) => {
