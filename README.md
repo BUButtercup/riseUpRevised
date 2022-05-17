@@ -35,7 +35,7 @@ Heroku Deployment:
 https://riseup-together.herokuapp.com/
 
 Backend Repository:
-https://github.com/ChrissieSparling/riseUp-back-end
+https://github.com/BUButtercup/riseUp-back-end
 
 
 ## Credits 
