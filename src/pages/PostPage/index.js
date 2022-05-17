@@ -530,10 +530,10 @@ const SingleForum = (props) => {
                             >
                               <CommentIcon className="singlePostIcon" />
                             </div>
-                            {!followed ? (<div onClick={() => handleFollowAuthor(post.userId)} className="last-icon icon pp-icon">
+                            {!followed ? (<div onClick={() => handleFollowAuthor(p.userId)} className="last-icon icon pp-icon">
                               <PersonAddIcon className="singlePostIcon" />
                             </div>) :
-                              <div onClick={(e) => handleUnfollow(post.userId)} className="last-icon icon pp-icon">
+                              <div onClick={(e) => handleUnfollow(p.userId)} className="last-icon icon pp-icon">
                                 <PersonRemoveIcon className="singlePostIcon" />
                               </div>
                             }
