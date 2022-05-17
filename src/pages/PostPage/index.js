@@ -428,10 +428,10 @@ const SingleForum = (props) => {
                 <CommentIcon className="singlePostIcon" />
                 <p>Comment on Post</p>
               </div>
-              <div onClick={handleFlagPost} className="last-icon icon pp-icon">
+              {postFlagged ? (<div onClick={handleFlagPost} className="last-icon icon pp-icon">
                 <ReportIcon className="singlePostIcon" />
                 <p>This Post has Been Flagged</p>
-              </div>
+              </div>) : null}
             </div>
           ) : (
             <div className="singlePostCommentIcon singlePostCommentBox">
