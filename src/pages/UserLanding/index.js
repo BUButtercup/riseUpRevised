@@ -29,6 +29,7 @@ const UserLanding = () => {
         setUsername(responseJson.username);
         setUHomePosts(responseJson.Posts);
         setFollowing(responseJson.following)
+        console.log('heres who following', responseJson.following)
       })
       .catch((err) => {
         console.log(err);
@@ -103,6 +104,7 @@ const UserLanding = () => {
           )}
         </div>
         {following.length ?
+          
           following.map(user => (<div className="user-post-list">
             <h1 >{user.username}'s Posts</h1>
             {user.Posts.length ? (
